@@ -1,2 +1,2 @@
-# MFN Duality Studio · sitio web
+# MFN Duality Studio · sitio web -
 
