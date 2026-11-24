@@ -1,0 +1,13 @@
+{
+  "name": "mfn-duality-studio",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "for f in js/*.js js/modules/*.js; do node --input-type=module --check < \"$f\" || exit 1; done && node --check api/contacto.js && node --check api/_lib/validate.js",
+    "verify": "node scripts/verify.mjs"
+  }
+}

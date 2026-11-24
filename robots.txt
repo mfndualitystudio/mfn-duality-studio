@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mfndualitystudio.vercel.app/sitemap.xml
